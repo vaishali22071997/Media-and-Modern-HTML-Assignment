@@ -1,0 +1,343 @@
+1. Create a simple blog webpage on PW Skills. The webpage must contain at least 2 headings, 1 image, and
+some information about PW Skills.
+
+Here's a simple blog webpage about "PW Skills." It includes at least two headings, an image, and some information about PW Skills:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploring PW Skills</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the PW Skills Blog</h1>
+    </header>
+    
+    <article>
+        <h2>What Are PW Skills?</h2>
+        <p>
+            PW Skills, short for "Professional Web Skills," are a set of competencies and abilities that web professionals need to excel in their field. These skills encompass a wide range of areas, including web development, design, user experience, and more.
+        </p>
+    </article>
+    
+    <img src="pwskills.jpg" alt="PW Skills Logo" width="300" height="200">
+    
+    <article>
+        <h2>Why PW Skills Are Important</h2>
+        <p>
+            In today's digital age, having strong PW Skills is essential for success in web-related careers. They enable professionals to create user-friendly, responsive, and accessible websites, keeping up with the ever-evolving web industry.
+        </p>
+    </article>
+    
+    <footer>
+        <p>Stay tuned for more insights on PW Skills and web development on our blog.</p>
+    </footer>
+</body>
+</html>
+In this example, there are two headings ("What Are PW Skills?" and "Why PW Skills Are Important"), an image (representing the PW Skills logo), and information about the importance of PW Skills. You can further expand and customize this blog webpage with additional content, images, and styling to suit your specific needs and preferences.
+
+
+
+2. Create a simple webpage with the PW Skills logo and add a title attribute with the value "PW Skills".
+Observe the changes that the title attribute applies to the image.
+
+Here's a simple webpage with the PW Skills logo and a title attribute added to the image. The title attribute provides additional information about the image and can be observed when hovering over the image with the mouse:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PW Skills Logo</title>
+</head>
+<body>
+    <h1>Welcome to the PW Skills Logo</h1>
+    
+    <!-- The title attribute provides additional information about the image. -->
+    <img src="pwskills.jpg" alt="PW Skills Logo" width="300" height="200" title="PW Skills">
+</body>
+</html>
+In this example, the title attribute is added to the image element, and its value is set to "PW Skills." When you hover over the image with your mouse, you'll see a tooltip or a small text box that displays the content of the title attribute, which, in this case, is "PW Skills." This tooltip provides supplementary information about the image, enhancing the user experience and accessibility.
+
+3. Create a <audio> tag that has controls to pause, play, and adjust the volume.
+
+You can use the <audio> element in HTML to embed an audio file on your webpage and provide controls for playing, pausing, and adjusting the volume. Here's an example of how to create an <audio> element with controls:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Player</title>
+</head>
+<body>
+    <h1>Audio Player</h1>
+    
+    <audio controls>
+        <source src="your-audio-file.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
+In this example:
+
+The <audio> element is used to embed an audio file. The controls attribute is added to provide play, pause, and volume control buttons.
+The <source> element within the <audio> element specifies the source of the audio file (replace "your-audio-file.mp3" with the actual file path) and its MIME type.
+The text "Your browser does not support the audio element" is displayed as a fallback message if the user's browser does not support the <audio> element.
+With this code, users will be able to play and pause the audio and adjust the volume using the built-in controls provided by the browser.
+
+4. Create a <audio> tag that automatically starts playing a song when the page loads. The audio tag should
+have controls to pause, play, and adjust the volume. Additionally, the song should be set to loop
+continuously until it is paused by the user.
+
+
+To create an <audio> element that automatically starts playing a song when the page loads, includes controls for pausing, playing, and adjusting the volume, and sets the song to loop continuously, you can use the following HTML code:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto-Playing Looping Audio</title>
+</head>
+<body>
+    <h1>Auto-Playing Looping Audio</h1>
+    
+    <audio controls autoplay loop>
+        <source src="your-audio-file.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
+In this example:
+
+The <audio> element is used to embed an audio file. The controls attribute provides play, pause, and volume control buttons. The autoplay attribute automatically starts playing the audio when the page loads, and the loop attribute ensures that the audio continuously repeats until paused by the user.
+The <source> element specifies the source of the audio file (replace "your-audio-file.mp3" with the actual file path) and its MIME type.
+The text "Your browser does not support the audio element" is displayed as a fallback message if the user's browser does not support the <audio> element.
+With this code, the audio will start playing as soon as the page loads, and it will continue to loop indefinitely until the user pauses it using the provided controls.
+
+
+5. Create a <video> tag that automatically starts playing a sunrise video when the page loads. The video tag
+should have controls to pause, play, and adjust the volume.
+
+To create a <video> element that automatically starts playing a sunrise video when the page loads, includes controls for pausing, playing, and adjusting the volume, you can use the following HTML code:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto-Playing Video</title>
+</head>
+<body>
+    <h1>Auto-Playing Sunrise Video</h1>
+    
+    <video controls autoplay>
+        <source src="sunrise.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+</body>
+</html>
+In this example:
+
+The <video> element is used to embed a video file. The controls attribute provides play, pause, and volume control buttons. The autoplay attribute automatically starts playing the video when the page loads.
+The <source> element specifies the source of the video file (replace "sunrise.mp4" with the actual file path) and its MIME type (in this case, "video/mp4").
+The text "Your browser does not support the video element" is displayed as a fallback message if the user's browser does not support the <video> element.
+With this code, the video will automatically start playing when the page loads, and users will have controls to pause, play, and adjust the volume as needed.
+
+
+6. Create a similar webpage as we built for assignment question 5. Add a poster attribute to the <video> tag
+that displays an image of the sunrise.
+
+
+To create a webpage with a <video> element that automatically starts playing a sunrise video and includes a poster image, you can use the following HTML code:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto-Playing Video with Poster</title>
+</head>
+<body>
+    <h1>Auto-Playing Sunrise Video</h1>
+    
+    <video controls autoplay poster="sunrise-poster.jpg">
+        <source src="sunrise.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+</body>
+</html>
+In this example:
+
+The <video> element is used to embed a video file. The controls attribute provides play, pause, and volume control buttons. The autoplay attribute automatically starts playing the video when the page loads. The poster attribute is added with the value "sunrise-poster.jpg," which is the filename of the poster image.
+The <source> element specifies the source of the video file (replace "sunrise.mp4" with the actual file path) and its MIME type (in this case, "video/mp4").
+The poster attribute specifies an image to display as the poster for the video. When the video is not playing, this poster image is shown. Replace "sunrise-poster.jpg" with the actual file path to your poster image.
+The text "Your browser does not support the video element" is displayed as a fallback message if the user's browser does not support the <video> element.
+With this code, the video will automatically start playing when the page loads, and it will display the specified poster image before playback begins. Users will have controls to pause, play, and adjust the volume as needed.
+
+
+7. Create a similar webpage as we built for assignment question 6 and disable the download option.
+
+To create a webpage with a <video> element that automatically starts playing a sunrise video, includes a poster image, and disables the download option, you can use the following HTML code:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto-Playing Video with Poster (Download Disabled)</title>
+</head>
+<body>
+    <h1>Auto-Playing Sunrise Video</h1>
+    
+    <video controls autoplay poster="sunrise-poster.jpg" controlsList="nodownload">
+        <source src="sunrise.mp4" type="video/mp4">
+        Your browser does not support the video element.
+    </video>
+</body>
+</html>
+In this updated example:
+
+The <video> element is used to embed a video file. The controls attribute provides play, pause, and volume control buttons. The autoplay attribute automatically starts playing the video when the page loads. The poster attribute is added with the value "sunrise-poster.jpg," which is the filename of the poster image.
+The <source> element specifies the source of the video file (replace "sunrise.mp4" with the actual file path) and its MIME type (in this case, "video/mp4").
+The poster attribute specifies an image to display as the poster for the video. When the video is not playing, this poster image is shown. Replace "sunrise-poster.jpg" with the actual file path to your poster image.
+The controlsList="nodownload" attribute is added to the <video> element to disable the download option for the video.
+With this code, the video will automatically start playing when the page loads, and it will display the specified poster image before playback begins. Users will have controls to pause, play, and adjust the volume, but the download option will be disabled.
+
+
+8. Create a simple webpage that displays Wikipedia's physics wallah page using an iframe.
+
+You can embed Wikipedia's Physics Wallah page using an <iframe> element. Here's an example of how to create a simple webpage that displays the Physics Wallah Wikipedia page within an iframe:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics Wallah Wikipedia Page</title>
+</head>
+<body>
+    <h1>Physics Wallah Wikipedia Page</h1>
+    <iframe src="https://en.wikipedia.org/wiki/Physics_Wallah" width="800" height="600" frameborder="0"></iframe>
+</body>
+</html>
+In this example:
+
+The <iframe> element is used to embed the content of another webpage within the current webpage.
+The src attribute specifies the URL of the Wikipedia page you want to display. In this case, it's set to the Physics Wallah Wikipedia page.
+The width and height attributes determine the dimensions of the iframe.
+The frameborder attribute is set to "0" to remove the border around the iframe.
+This code will create a simple webpage with the title "Physics Wallah Wikipedia Page" and display the Physics Wallah Wikipedia page within an iframe. Users can scroll and interact with the content as if they were on the Wikipedia page itself.
+
+
+9. Create a feedback form with a field for the user's name, email address, and message.
+
+To create a basic feedback form with fields for the user's name, email address, and message, you can use HTML. Here's a simple example:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body>
+    <h1>Feedback Form</h1>
+    <form action="submit_feedback.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+In this example:
+
+The <form> element is used to create the feedback form. The action attribute specifies the URL to which the form data will be sent when the user submits the form, and the method attribute is set to "post" to send the data as POST requests (you would typically handle the form submission on the server).
+Three input fields are provided: one for the user's name (<input type="text>), one for the email address (<input type="email>), and one for the message (<textarea>).
+Each input field has a corresponding <label> element for better accessibility and usability. The for attribute of the label is associated with the id of the input element, linking the label to the input field.
+The required attribute is added to each input field to make sure users provide information for each field before they can submit the form.
+Finally, there is a submit button (<input type="submit>) to send the form data.
+You'll need to handle the form submission on the server-side using a server-side scripting language like PHP or JavaScript to process and store the user's feedback.
+
+
+
+10. Create a registration form with fields for the user's name, email address, password, and a checkbox to
+agree to the terms and conditions. Use the text input type for the name and email fields, the password
+input type for the password field, and the checkbox input type for the terms and conditions field.
+
+Create a registration form with fields for the user's name, email address, password, and a checkbox to
+agree to the terms and conditions. Use the text input type for the name and email fields, the password
+input type for the password field, and the checkbox input type for the terms and conditions field.
+
+ChatGPT
+To create a registration form with fields for the user's name, email address, password, and a checkbox to agree to the terms and conditions, you can use HTML. Here's a simple example:
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="register.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the terms and conditions</label><br>
+
+        <input type="submit" value="Register">
+    </form>
+</body>
+</html>
+In this example:
+
+The <form> element is used to create the registration form. The action attribute specifies the URL to which the form data will be sent when the user submits the form, and the method attribute is set to "post" to send the data as POST requests (you would typically handle the form submission on the server).
+
+Three text input fields are provided: one for the user's name (<input type="text>), one for the email address (<input type="email>), and one for the password (<input type="password>).
+
+A checkbox input field (<input type="checkbox>) is used to agree to the terms and conditions. The required attribute is added to ensure users agree to the terms before they can submit the form.
+
+Each input field and the checkbox has a corresponding <label> element for better accessibility and usability. The for attribute of the label is associated with the id of the input element, linking the label to the input field.
+
+Finally, there is a submit button (<input type="submit>) to send the form data.
+
+You'll need to handle the form submission on the server-side using a server-side scripting language like PHP or JavaScript to process and store the user's registration data.
